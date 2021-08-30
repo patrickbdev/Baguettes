@@ -1,0 +1,11 @@
+/* 
+  Strings.strings
+  Baguettes
+
+  Created by patrick on 30/8/21.
+  
+*/
+
+"list.chocolate" = "Chocolate";
+"list.fruit" = "Fruit";
+"list.plain" = "Plain";

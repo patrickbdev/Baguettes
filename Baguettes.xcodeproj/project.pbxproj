@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD0155D126DCEA84002ACAA8 /* BaguettesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0155D026DCEA84002ACAA8 /* BaguettesApp.swift */; };
+		CD0155D326DCEA84002ACAA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0155D226DCEA84002ACAA8 /* ContentView.swift */; };
+		CD0155D526DCEA86002ACAA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0155D426DCEA86002ACAA8 /* Assets.xcassets */; };
+		CD0155D826DCEA86002ACAA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0155D726DCEA86002ACAA8 /* Preview Assets.xcassets */; };
+		CD0155E026DCED9F002ACAA8 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0155DF26DCED9F002ACAA8 /* Colors.xcassets */; };
+		CD0155E226DCEDB0002ACAA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0155E126DCEDB0002ACAA8 /* Images.xcassets */; };
+		CD0155E526DCF4B3002ACAA8 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = CD0155E426DCF4B3002ACAA8 /* swiftgen.yml */; };
+		CD0155E826DCF64C002ACAA8 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0155E726DCF64C002ACAA8 /* Resource.swift */; };
+		CD0155EA26DCF80A002ACAA8 /* Strings.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD0155E926DCF80A002ACAA8 /* Strings.strings */; };
+		CD0155EC26DCF98B002ACAA8 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0155EB26DCF98B002ACAA8 /* Strings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD0155CD26DCEA84002ACAA8 /* Baguettes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baguettes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0155D026DCEA84002ACAA8 /* BaguettesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaguettesApp.swift; sourceTree = "<group>"; };
+		CD0155D226DCEA84002ACAA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD0155D426DCEA86002ACAA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD0155D726DCEA86002ACAA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD0155D926DCEA86002ACAA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0155DF26DCED9F002ACAA8 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		CD0155E126DCEDB0002ACAA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD0155E426DCF4B3002ACAA8 /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		CD0155E726DCF64C002ACAA8 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		CD0155E926DCF80A002ACAA8 /* Strings.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Strings.strings; sourceTree = "<group>"; };
+		CD0155EB26DCF98B002ACAA8 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD0155CA26DCEA84002ACAA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD0155C426DCEA84002ACAA8 = {
+			isa = PBXGroup;
+			children = (
+				CD0155CF26DCEA84002ACAA8 /* Baguettes */,
+				CD0155CE26DCEA84002ACAA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD0155CE26DCEA84002ACAA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD0155CD26DCEA84002ACAA8 /* Baguettes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD0155CF26DCEA84002ACAA8 /* Baguettes */ = {
+			isa = PBXGroup;
+			children = (
+				CD0155D026DCEA84002ACAA8 /* BaguettesApp.swift */,
+				CD0155D226DCEA84002ACAA8 /* ContentView.swift */,
+				CD0155E926DCF80A002ACAA8 /* Strings.strings */,
+				CD0155D426DCEA86002ACAA8 /* Assets.xcassets */,
+				CD0155DF26DCED9F002ACAA8 /* Colors.xcassets */,
+				CD0155E126DCEDB0002ACAA8 /* Images.xcassets */,
+				CD0155E726DCF64C002ACAA8 /* Resource.swift */,
+				CD0155EB26DCF98B002ACAA8 /* Strings.swift */,
+				CD0155E426DCF4B3002ACAA8 /* swiftgen.yml */,
+				CD0155D926DCEA86002ACAA8 /* Info.plist */,
+				CD0155D626DCEA86002ACAA8 /* Preview Content */,
+			);
+			path = Baguettes;
+			sourceTree = "<group>";
+		};
+		CD0155D626DCEA86002ACAA8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD0155D726DCEA86002ACAA8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD0155CC26DCEA84002ACAA8 /* Baguettes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0155DC26DCEA86002ACAA8 /* Build configuration list for PBXNativeTarget "Baguettes" */;
+			buildPhases = (
+				CD0155E626DCF4F7002ACAA8 /* ShellScript */,
+				CD0155C926DCEA84002ACAA8 /* Sources */,
+				CD0155CA26DCEA84002ACAA8 /* Frameworks */,
+				CD0155CB26DCEA84002ACAA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Baguettes;
+			productName = Baguettes;
+			productReference = CD0155CD26DCEA84002ACAA8 /* Baguettes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD0155C526DCEA84002ACAA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CD0155CC26DCEA84002ACAA8 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = CD0155C826DCEA84002ACAA8 /* Build configuration list for PBXProject "Baguettes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD0155C426DCEA84002ACAA8;
+			productRefGroup = CD0155CE26DCEA84002ACAA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD0155CC26DCEA84002ACAA8 /* Baguettes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD0155CB26DCEA84002ACAA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0155E026DCED9F002ACAA8 /* Colors.xcassets in Resources */,
+				CD0155E526DCF4B3002ACAA8 /* swiftgen.yml in Resources */,
+				CD0155E226DCEDB0002ACAA8 /* Images.xcassets in Resources */,
+				CD0155D826DCEA86002ACAA8 /* Preview Assets.xcassets in Resources */,
+				CD0155D526DCEA86002ACAA8 /* Assets.xcassets in Resources */,
+				CD0155EA26DCF80A002ACAA8 /* Strings.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CD0155E626DCF4F7002ACAA8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd BuildTools\nSDKROOT=iphoneos4.0\n#swift package update #Uncomment this line temporarily to update the version used to the latest matching your BuildTools/Package.swift file\nswift run -c release swiftgen config run --config \"$SRCROOT/Baguettes/swiftgen.yml\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD0155C926DCEA84002ACAA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0155E826DCF64C002ACAA8 /* Resource.swift in Sources */,
+				CD0155D326DCEA84002ACAA8 /* ContentView.swift in Sources */,
+				CD0155EC26DCF98B002ACAA8 /* Strings.swift in Sources */,
+				CD0155D126DCEA84002ACAA8 /* BaguettesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CD0155DA26DCEA86002ACAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD0155DB26DCEA86002ACAA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD0155DD26DCEA86002ACAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Baguettes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Baguettes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Baguettes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD0155DE26DCEA86002ACAA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Baguettes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Baguettes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Baguettes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD0155C826DCEA84002ACAA8 /* Build configuration list for PBXProject "Baguettes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0155DA26DCEA86002ACAA8 /* Debug */,
+				CD0155DB26DCEA86002ACAA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0155DC26DCEA86002ACAA8 /* Build configuration list for PBXNativeTarget "Baguettes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0155DD26DCEA86002ACAA8 /* Debug */,
+				CD0155DE26DCEA86002ACAA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD0155C526DCEA84002ACAA8 /* Project object */;
+}

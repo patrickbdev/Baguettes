@@ -1,0 +1,18 @@
+xcassets:
+    inputs:
+        - Images.xcassets
+        - Colors.xcassets
+    outputs:
+        templatePath: ../BuildTools/.build/checkouts/SwiftGen/templates/xcassets/swift5.stencil
+        output: Resource.swift
+        params:
+            enumName: Assets
+            
+strings:
+    inputs:
+        - Strings.strings
+    outputs:
+        templatePath: ../BuildTools/.build/checkouts/SwiftGen/templates/strings/structured-swift5.stencil
+        output: Strings.swift
+        params:
+            enumName: Strings
